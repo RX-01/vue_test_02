@@ -20,8 +20,14 @@ module.exports = {
   /*
   ** Build configuration
   */
-
-  mode: 'spa',
+  generate: {
+    routes: [
+      '/users/1',
+      '/users/2',
+      '/users/3'
+    ]
+  },
+  // mode: 'spa',
   build: {
     vendor: ['axios'],
     /*
