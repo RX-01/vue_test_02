@@ -20,6 +20,8 @@ module.exports = {
   /*
   ** Build configuration
   */
+
+  mode: 'spa',
   build: {
     vendor: ['axios'],
     /*
